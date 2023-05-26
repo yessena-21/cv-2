@@ -1,0 +1,14 @@
+.cards__image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 60px auto 43px;
+    object-fit: cover;
+    grid-area: image;
+  }
+
+  @media (max-width: 767px) {
+    .cards__image {
+      margin: 10px auto 23px 0; 
+    }
+  }

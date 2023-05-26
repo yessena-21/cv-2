@@ -1,0 +1,16 @@
+.root {
+    min-width: 320px;
+    max-width: 1200px;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #93928e;
+  background: linear-gradient(to bottom, #93928e, #f0ebeb);
+  }
+  
+  a 
+  {
+    text-decoration: none;
+    color: #082f61;
+  }

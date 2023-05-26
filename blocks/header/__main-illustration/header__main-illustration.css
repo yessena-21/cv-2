@@ -1,0 +1,26 @@
+.header__main-illustration {
+  width: 100%;
+    max-width: 535px;
+    min-width: 300px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    z-index: 2;
+    border-bottom: 1px solid #545454;
+  }
+
+  @media (max-width: 767px) {
+    .header__main-illustration {
+     position: inherit;
+     width:60%;
+     background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  
+
+  
+    }
+  }

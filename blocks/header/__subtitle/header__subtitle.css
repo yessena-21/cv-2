@@ -1,0 +1,24 @@
+.header__subtitle {
+  
+    position: absolute;
+    left: 64px;
+    bottom: 0;
+    width:388px;
+    font-size: 40px;
+    font-weight: normal;
+    display: inline-block;
+    z-index: 3;
+    
+  }
+
+  @media (max-width: 767px) {
+    .header__subtitle {
+      width:100%;
+      min-width: 320px;
+      position: inherit;
+      font-size: 28px;
+    font-weight: normal;
+    left: 0;
+          }
+
+}

@@ -1,0 +1,16 @@
+
+.footer {
+  background-color: #93928e;
+  margin: 0 auto;
+  max-width: 1184px;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  padding-right: 25px;
+  }
+
+  @media (max-width: 767px) {
+    .footer {
+      justify-content: left;
+    }
+  }

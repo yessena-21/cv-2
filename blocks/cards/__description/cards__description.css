@@ -1,0 +1,13 @@
+.cards__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    grid-area: text;
+    margin-right: 100px;
+  }
+
+  @media (max-width: 767px) {
+    .cards__description {
+      margin-right: 40px; 
+    }
+  }

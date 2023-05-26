@@ -1,0 +1,12 @@
+
+.two-columns {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 0;
+  }
+  @media (max-width: 767px) {
+    .two-columns {
+      flex-direction: column;
+    }
